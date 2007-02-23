@@ -1,0 +1,61 @@
+cooka
+------------------------------------------
+Cooka is a very simple image viewer written in C# (less than 900 lines 
+of code, comments included) and compiled with Mono framework. The 
+application is really essential: it has a file system browser in order 
+to select the folder containing images to display; a thumbs viewer 
+useful to see a preview of the images within the selected folder and 
+some information like image's name, size and dimension; and finally a 
+"view" area used to display the selected image.
+
+Runtime requirements:
+  glib-sharp2-2.10.0-1
+  glade-sharp2-2.10.0-1
+  gtk-sharp2-2.10.0-1
+  mono-1.2.3.1-1
+
+Build requirements:
+(in addition to the above)
+  cygwin-1.5.24-2
+  cygport-0.2.9-1
+  make-3.81-1
+
+Canonical website:
+  http://laas.altervista.org/cooka/ckaindex.php
+
+Canonical download:
+  http://laas.altervista.org/cooka/cooka-0.3_src.tar.gz
+
+-------------------------------------------
+
+Build instructions:
+  unpack cooka-0.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./cooka-0.3-X.cygport all
+
+This will create:
+  /usr/src/cooka-0.3-X-src.tar.bz2
+  /usr/src/cooka-0.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/cooka
+  /usr/lib/cooka/Cooka.exe
+  /usr/share/doc/Cygwin/cooka-0.3.README
+  /usr/share/doc/cooka-0.3/COPYING
+  /usr/share/doc/cooka-0.3/README
+
+------------------
+
+Port Notes:
+
+----- version 0.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

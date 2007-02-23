@@ -1,0 +1,10 @@
+category: Graphics
+requires: glib-sharp2 glade-sharp2 gtk-sharp2 mono
+sdesc: "Simple Gtk# image viewer"
+ldesc: "Cooka is a very simple image viewer written in C# (less than 900 
+lines of code, comments included) and compiled with Mono framework. The 
+application is really essential: it has a file system browser in order 
+to select the folder containing images to display; a thumbs viewer 
+useful to see a preview of the images within the selected folder and 
+some information like image's name, size and dimension; and finally a 
+"view" area used to display the selected image."
