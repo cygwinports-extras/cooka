@@ -7,4 +7,4 @@ application is really essential: it has a file system browser in order
 to select the folder containing images to display; a thumbs viewer 
 useful to see a preview of the images within the selected folder and 
 some information like image's name, size and dimension; and finally a 
-"view" area used to display the selected image."
+'view' area used to display the selected image."
